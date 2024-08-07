@@ -1,0 +1,70 @@
+name: rideshare
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.0.3 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  stacked: ^3.4.0
+  stacked_services: ^1.1.0
+
+  google_fonts: ^6.1.0
+  flutter_animate: ^4.4.0
+  jwt_decoder: ^2.0.1
+  image_picker: ^1.0.7
+  intl: ^0.18.0
+  flutter_masked_text2: ^0.9.1
+
+  firebase_core: ^2.24.2
+  firebase_storage: ^11.6.0
+  firebase_messaging: ^14.7.10
+  flutter_local_notifications: ^16.3.0
+
+  google_maps_flutter: ^2.5.2
+  geolocator: null
+  geocoding: ^2.1.1
+  permission_handler: null
+  shared_preferences: ^2.2.2
+  sliding_up_panel: ^2.0.0+1
+  flutter_polyline_points: ^2.0.0
+  syncfusion_flutter_charts: 21.2.6
+  animated_rating_stars: ^1.0.1
+  pinput: ^3.0.1
+  firebase_auth: ^4.4.2
+
+dev_dependencies:
+  build_runner: ^2.4.5
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+  mockito: ^5.4.1
+  stacked_generator: ^1.3.3
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/bplogo.png"
+  min_sdk_android: 21 # android min sdk min:16, default 21
+  web:
+    generate: true
+    image_path: "assets/bplogo.png"
+    background_color: "#hexcode"
+    theme_color: "#hexcode"
+  windows:
+    generate: true
+    image_path: "assets/bplogo.png"
+    icon_size: 48 # min:48, max:256, default: 48
+  macos:
+    generate: true
+    image_path: "assets/bplogo.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
